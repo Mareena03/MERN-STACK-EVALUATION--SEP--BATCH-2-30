@@ -1,0 +1,39 @@
+.grid{
+ 
+    
+background-color: aquamarine;
+text-align: center;
+margin: 70px;
+height: 300px;
+width: 700px;
+border:2px solid black;
+
+display: grid;
+
+grid-template-rows: 1fr 1fr 1 fr;
+
+}
+.child1{
+    background-color: pink;
+}
+.child2{
+    background-color: violet;
+}
+.child3{
+    background-color: blue;
+}
+.child4{
+    background-color: brown;
+}
+.child5{
+    background-color: green;
+}
+.child6{
+    background-color: yellow;
+}
+.child7{
+    background-color: black;
+}
+.child8{
+    background-color: white;
+}

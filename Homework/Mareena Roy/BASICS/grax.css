@@ -1,0 +1,68 @@
+*{
+      border: 0px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+
+body{
+    background-size: cover;
+    background-image: url("11.jpg");
+  
+}
+.main{
+  color: white;
+
+
+}
+.navbar h1{
+    color: white;
+    margin-top: 20px;
+    margin-left: 100px;
+  letter-spacing: 10px;
+
+}
+
+.options p{
+   display: flex;
+    text-align: right;
+    justify-content:space-between ;
+    align-items: center;
+    color: white;
+    word-spacing: 40px;
+
+}
+.header{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+
+ 
+}
+.navbar{
+    display: flex;
+   
+}
+.options{
+    display: flex;
+
+
+    padding-left: 800px;
+
+}
+.content{
+    margin: 300px;
+}
+.content h1{
+    font-size: 60px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+   gap: 30px;
+   margin-top: 30px;
+}
+.options li:hover{
+color: red;
+}

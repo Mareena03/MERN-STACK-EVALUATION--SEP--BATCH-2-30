@@ -1,0 +1,79 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    color: azure;
+}
+
+.main{
+ 
+    
+    width: 600px;
+    height: 600px;
+   margin-top: 100px;
+   margin-left: 500px;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+ position: relative;
+   
+
+
+   
+}
+.container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* This will make the image cover the entire grid cell */
+    display: block; /* Prevents any extra space from margins */
+    border-radius: 20px;
+  }
+
+  .child1, .child2, .child3, .child4, .child6, .child7, .child8, .child9 {
+    animation: move-grid 8s infinite;
+  }
+  
+  .child5 {
+    grid-column: 2;
+    grid-row: 2;
+    position: relative;
+    background-color: coral; /* Center item remains fixed */
+  }
+  
+  /* Keyframes for rotating children around the center */
+  @keyframes move-grid {
+    0%, 100% { grid-area: 1 / 1 / 2 / 2; } /* Child 1's original position */
+    12.5% { grid-area: 1 / 2 / 2 / 3; }   /* Move to Child 2's position */
+    25% { grid-area: 1 / 3 / 2 / 4; }     /* Move to Child 3's position */
+    37.5% { grid-area: 2 / 3 / 3 / 4; }   /* Move to Child 6's position */
+    50% { grid-area: 3 / 3 / 4 / 4; }     /* Move to Child 9's position */
+    62.5% { grid-area: 3 / 2 / 4 / 3; }   /* Move to Child 8's position */
+    75% { grid-area: 3 / 1 / 4 / 2; }     /* Move to Child 7's position */
+    87.5% { grid-area: 2 / 1 / 3 / 2; }   /* Move to Child 4's position */
+  }
+  
+  /* Stagger animations for each child */
+  .child2 { animation-delay: 1s; }
+  .child3 { animation-delay: 2s; }
+  .child4 { animation-delay: 3s; }
+  .child6 { animation-delay: 4s; }
+  .child7 { animation-delay: 5s; }
+  .child8 { animation-delay: 6s; }
+  .child9 { animation-delay: 7s; }
+  
+ 
+   
+  
+
+
+
+
+
+    
+    
+    
+    
+
+
+
+  

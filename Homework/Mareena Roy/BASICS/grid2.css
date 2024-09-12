@@ -1,0 +1,57 @@
+.parent{
+    display: grid;
+    width: 500px;
+    height: 700px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.child1{
+    background-color: pink;
+    display: grid;
+    grid-column: 1 / 4;
+ 
+}
+.child2{
+    background-color: violet;
+}
+.child3{
+    background-color: blue;
+
+    
+      
+}
+.child4{
+    background-color: brown;
+
+    
+}
+.child5{
+    background-color: green;
+    grid-row: 3/ 6;
+}
+.child6{
+    background-color: yellow;
+  
+    
+}
+.child7{
+    background-color: black;
+    color: #881010;
+    grid-column: 2 / 4;
+}
+.child8{
+    background-color: rgb(57, 49, 76);
+    grid-column: 1 / 3;
+}
+.child9{
+    background-color: blanchedalmond;
+}

@@ -1,0 +1,35 @@
+.left{
+    width: 110px;
+    height: 500px;
+    background-color:pink ;
+ 
+  
+}
+.right{
+  
+    background-color: red;
+    height: 400px;
+    width: 110px;
+}
+.top{
+ background-color: aqua;
+width: 200px;
+height: 100px;
+}
+.subcontainer{
+display: flex;
+}
+.container{
+    display: flex;
+}
+
+.bottom{
+    height: 300px;
+    background-color: violet;
+    width:90px;
+}
+.orange{
+    height: 100px;
+    width:90px;
+    background-color:orange;
+}

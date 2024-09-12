@@ -1,0 +1,359 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.navbar{
+    background-color: black;
+    height: 60px;
+    color: beige;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between; 
+    padding: 10px 10px; 
+}
+.left-nav{
+    width:90px;
+}
+.middle-nav{
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  
+}
+.nav-search{
+
+    
+    display: flex;
+    padding-top: 10px;
+
+}
+.search-icon{
+    
+}
+.search{
+    background-color: #0d0e0d;
+    color: aliceblue;
+    width: 350px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+
+
+.premiumex{
+    border: solid rgb(25, 23, 19);
+ width: 150px;          
+    padding: 10px 10px;  
+    border-radius: 20px;
+ margin-right: 30px;
+}
+.mid-section{
+    color:white;
+    background-color:  black;
+    height: 600px;
+    display: flex;
+
+}
+.mid-child1{
+    background-color: rgb(17, 16, 15);
+    width:450px;
+    margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 30px;
+}
+.library{
+    background-color: rgb(31, 46, 46);
+    height: 30px;
+display: flex;
+    
+}
+.lib-icons{
+    margin-left: 260px;
+}
+.playlist-buttons{
+    margin-top: 10px;
+    margin-left: 20px;
+
+    
+}
+.playlist{
+    background-color: rgb(11, 12, 12);
+    color: white;
+width:100px;
+height: 30px;
+border-radius: 30px;
+}
+.artist{
+    background-color: rgb(12, 12, 12);
+    color: white;
+width:100px; 
+height: 30px;
+border-radius: 30px;
+}
+.lib-search{
+    display: flex;
+    margin-top: 20px;
+}
+.recents{
+    display: flex;
+    margin-left: 350px;
+    }
+
+.playlists{
+
+    height: 500px;
+}    
+.mid-child2{
+    background-color: rgb(46, 41, 34);
+width:620px;
+}
+.mid-child3{
+    background-color: rgb(17, 16, 15);
+width:450px;
+margin-left: 10px;
+  margin-right: 10px;
+}
+.child3-nav{
+    display: flex;
+
+}
+.song-link{
+    margin-top: 10px;
+    color: white;
+   
+    
+}
+.icon-group{
+    margin-left: 250px;
+    margin-top: 10px;
+}
+.image-play{
+    padding: 30px;
+}
+.song-name{
+    height: 50px;
+}
+.song-name h2{
+
+    
+}
+
+.song-name span{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+padding-bottom: 30px;
+
+
+}
+.credits{
+    background-color: rgb(25, 23, 19);
+  margin: 20px;
+  height: 120px;
+}
+.credits-nav {
+    display: flex; /* Enable flexbox layout */
+    align-items: center; /* Vertically center items */
+    justify-content: space-between; /* Space out items to left and right */
+}
+.credits p{
+    width:50px;
+    color: rgb(241, 235, 235);
+    margin-left: 20px;
+}
+
+.showall{
+    margin-left: 0px;
+    margin-right: 10px; 
+    margin-top: 10px;  
+    
+}
+.credits-down{
+    display: flex; /* Enable flexbox layout */
+    align-items: center; /* Vertically center items */
+    justify-content: space-between; /* Space out items to left and right */
+padding: 20px;
+}
+.credits-down p{
+    margin-left: 5px;
+}
+
+.showall{
+    background-color: transparent; 
+    border: solid rgb(25, 23, 19);
+    color: rgb(247, 236, 236);  
+    width: 80px;          
+    padding: 10px 10px;  
+    border-radius: 20px;
+    font-family: "Matemasie", sans-serif;
+}
+.follow{
+    background-color: transparent; 
+border: 2px solid rgb(237, 234, 234);
+color: rgb(247, 236, 236);  
+width: 60px;          
+padding: 10px 10px;  
+border-radius: 20px;
+font-family: "Matemasie", sans-serif;
+}
+  
+/*footer*/
+.footer{
+    background-color: black;
+    height: 80px;
+}
+.liked{
+    background-color: rgb(65, 65, 75);
+    height: 50px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center; 
+    
+    
+    
+}
+.liked img{
+    height:40px ;
+    padding-left: 10px;
+    
+}
+.liked-text{
+    margin-left: 10px;
+}
+
+/*MID CHILD2 */
+.mid-top{
+    background-color:rgb(65, 65, 75);
+    height: 270px;
+    margin: 10px;
+}
+.top-nav{
+padding-top: 10px;
+    
+}
+.top-nav h5{
+padding-left: 140px;
+
+}
+.sponsored{
+    margin-left: 300px;
+    color: white;
+    background-color: rgb(11, 11, 11) ;
+    border-radius: 10px;
+    width: 100px;
+}
+.top-left{
+    margin-top: 20px;
+}
+    .trending-top{
+display: flex;
+
+
+    }
+
+    
+.top-left img{
+    width:150px;
+    margin-left: 20px;
+    border-radius: 10px;
+  
+}
+.top-right{
+    margin-top: 20px;
+    display: flex;
+    
+}
+.top-right h1,
+.top-right h5 {
+    margin-bottom: 10px; /* Adds space between headers */
+  
+}
+.buttons-trend{
+    padding: 20px;
+}
+.play{
+    background-color: #1db954;
+    width: 70px;
+    color: black;
+    border: 2px solid #1db954;
+    border-radius: 10px;
+    height: 40px;
+}
+.flow{
+
+    background-color: transparent; 
+    border: 2px solid rgb(237, 234, 234);
+    color: rgb(247, 236, 236);            
+    padding: 10px 30px;  
+    border-radius: 20px;
+    font-family: "Matemasie", sans-serif;  
+}
+
+/*MID DOWN PLAYLIST SECTION*/
+.mid-down{
+
+    
+    height: 300px;
+}
+.down-buttons{
+
+ margin-top: 20px;   
+margin-left: 20px;
+
+}
+.all{
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    width: 40px;
+    height: 30px;
+}
+.button{
+    background-color: black;
+    color: white;
+border-radius: 20px;
+width: 65px;
+height: 30px;
+    border: 2px solid #0d0e0d;
+}
+.playlists-mid{
+
+    
+    height: 250px;
+}
+ .fav{
+    background-color: rgb(65, 65, 75);
+    height: 50px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center; 
+    width: 300px;
+    margin-left: 10px;
+
+    
+    
+}
+.fav img{
+    height:40px ;
+   
+
+    
+    padding-left: 10px; 
+}
+.play-left{
+   
+    
+   
+    
+}
+.play-right{
+
+    padding-right: 10px;
+}
+.playlists-mid{
+    display: flex;
+}

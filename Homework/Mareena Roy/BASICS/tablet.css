@@ -1,0 +1,73 @@
+.body {
+
+    color: white;
+}
+
+h1 {
+    padding: 30px;
+}
+
+.header {
+    background-color: black;
+    height: 40px;
+    width: 300px;
+    text-align: center;
+
+}
+
+.hero {
+    background-color: aqua;
+    height: 130px;
+    width: 300px;
+    
+}
+
+.menu {
+    background-color: palevioletred;
+    width: 70px;
+    height: 250px;
+
+}
+
+.main {
+    background-color: blueviolet;
+    width: 230px;
+    height: 100px;
+    
+}
+
+.extra {
+    background-color: rgb(7, 93, 7);
+    height: 80px;
+    width: 170px;
+
+
+
+}
+
+.image {
+    background-color: rgb(137, 137, 185);
+    height: 80px;
+    width: 60px;
+    text-align: center;
+
+}
+
+.left {
+    display: flex;
+}
+
+.banner {
+    height: 70px;
+    background-color: orange;
+    width: 230px;
+    
+}
+
+.content {
+    display: flex;
+}
+
+.subcontainer {
+    display: flex;
+}

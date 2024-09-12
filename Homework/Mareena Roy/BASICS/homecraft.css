@@ -1,0 +1,118 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+.container {
+    display: flex;
+
+}
+
+
+.left {
+    background-color: lightblue;
+    width: 500px;
+    text-align: left;
+    padding-top: 300px;
+    padding-left: 200px;
+}
+
+.right {
+    background-color: white;
+    width: 950px;
+    height: 800px;
+}
+
+.right a {
+    color: rgb(91, 203, 91);
+}
+
+.nav {
+    margin-top: 35px;
+    text-align: end;
+    margin-right: 25px;
+}
+
+.content h1 {
+    margin-top: 60px;
+
+}
+
+.content {
+    margin-left: 30px;
+}
+
+.googlesignup {
+
+    border-radius: 4px;
+    color: white;
+    width: 300px;
+    height: 40px;
+    background-color: rgb(204, 16, 16);
+    border: 2px solid rgb(211, 13, 13);
+
+    margin-top: 30px;
+}
+
+.form {
+    padding-top: 40px;
+
+}
+
+.form input {
+    margin-bottom: 15px;
+    /* Adds space below each input field */
+
+}
+
+.logindetails {
+    width: 810px;
+    height: 40px;
+    background-color: rgb(228, 224, 224);
+    border: 2px white;
+}
+
+.button {
+    background-color: darkgreen;
+}
+
+.createacc {
+    background-color: rgb(63, 205, 63);
+    height: 40px;
+    width: 380px;
+    border: 2px rgb(63, 205, 63);
+    border-radius: 4px;
+    color: white;
+    margin-top: 10px;
+}
+
+
+.checkbox-container {
+    display: flex;
+    /* Aligns checkbox and text horizontally */
+    align-items: center;
+    /* Vertically centers checkbox with text */
+}
+
+.checkbox {
+    margin-right: 10px;
+    /* Adds space between checkbox and text */
+    accent-color: blue;
+    /* Optional: Changes checkbox tick color */
+}
+
+.icons {
+    margin-top: 33px;
+
+
+
+}
+
+.sites {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}

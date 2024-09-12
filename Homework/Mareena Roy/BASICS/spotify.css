@@ -1,0 +1,268 @@
+*{
+     margin: 0px;
+}
+
+
+
+.home{
+    border-radius: 100px;
+    background-color: gray;
+}
+.mid-section{
+display: flex;
+}
+.child1{
+    background-color: rgb(85, 0, 255);
+    height: 650px;
+    width:500px;
+    
+}
+.child2{
+    background-color: brown;
+    height: 650px;
+    width:700px;
+
+}
+.libraray{
+
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    position: relative;
+    
+
+    
+    
+    
+}
+.libraray h5{
+margin-left: 10px;
+}
+.libraray icons-library{
+display: flex;
+justify-content: end;
+align-items: end;
+
+
+}
+.lib-search{
+    display: flex;  /*to horizontally arrange icons amnd recents*/
+
+}
+.lib-search h5{
+    margin-left: 300px; /*to get gap between search and recents*/
+}
+
+
+
+.child3 {
+    position: relative;
+    padding: 20px;
+    background-color: #181818;
+    color: white;
+    width: 300px; /* Adjust based on your preference */
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+}
+
+/* Top bar container for a and span elements */
+.top-bar {
+    display: flex;
+    justify-content: space-between; /* Distributes space between elements */
+    align-items: center; /* Aligns items vertically center */
+    margin-bottom: 10px; /* Adds some space below the top bar */
+}
+
+.song-link {
+    font-size: 18px;
+    color: white;
+    text-decoration: none; /* Removes underline from the link */
+}
+
+.icon-group {
+    display: flex;
+    gap: 10px; /* Adds gap between span icons */
+}
+
+.material-symbols-outlined {
+    cursor: pointer; /* Adds pointer cursor for hover effect */
+    font-size: 24px; /* Adjust size of the icons */
+}
+
+/* Additional styling for rest of the content */
+img {
+    display: block;
+    margin: 10px 0;
+}
+
+h3, h4 {
+    margin: 10px 0;
+}
+
+.credits {
+    background-color: #1db954;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.child1 {
+    background-color: #181818; /* Background color */
+    padding: 15px;
+    border-radius: 8px;
+    position: relative; /* Establish a positioning context for absolute positioning */
+    color: white;
+}
+
+/* Style for the library container */
+.libraray {
+    display: flex;
+    align-items: center; /* Centers vertically */
+    justify-content: space-between; /* Space between elements to align left and right */
+    position: relative; /* Relative position for the container */
+}
+
+/* Style for the library header */
+.library-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Pushes icons to the right */
+    width: 100%; /* Ensures the header spans the full width of the container */
+}
+
+/* Style for the left icon and title */
+.library-header h5 {
+    margin: 0 10px; /* Adds spacing between the icon and text */
+}
+
+/* Style for the right icons */
+.icons-library {
+    display: flex;
+    gap: 10px; /* Adds spacing between icons */
+}
+
+/* Style for icons */
+.material-symbols-outlined {
+    cursor: pointer; /* Adds a pointer cursor for hover effect */
+    font-size: 24px; /* Adjusts icon size */
+    color: white; /* Sets icon color */
+}
+.liked{
+    display: flex;
+
+    
+}
+.trending{
+    background-color: aquamarine;
+    height: 250px;
+
+    
+}
+.trending h4{
+    margin-left: 240px;
+}
+.sponsored{
+margin-left: 340px;
+color: white;
+background-color: #181818;
+border-radius: 5px;
+width: 100px;
+}
+.right-content{
+    display: flex;
+    justify-content: end;
+
+
+}
+.buttons{
+    margin-left: 30px;
+margin-top: 150px;
+
+
+}
+
+.fav{
+border: 3px black;
+background-color: black;
+color: azure;
+width: 200px;
+height: 30px;
+margin-bottom: 30px;
+}
+.top10{
+    border: 3px black;
+background-color: rgb(95, 36, 116);
+color: azure;
+width: 200px;
+height: 30px;
+margin-bottom: 30px;
+}
+.likedsongs{
+    border: 3px black;
+    background-color: rgb(188, 159, 198);
+    color: azure;
+    width: 200px;
+    height: 30px;
+    margin-bottom: 30px;
+}
+.ra-one{
+    border: 3px black;
+    background-color: rgb(188, 159, 198);
+    color: azure;
+    width: 200px;
+    height: 30px;
+    margin-bottom: 30px;
+}
+.buttons-right
+{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    flex-direction: column;
+width:200px;
+
+
+}
+.song-mainhoon{
+    border: 3px black;
+    background-color: rgb(188, 159, 198);
+    color: azure;
+    width: 200px;
+    height: 30px;
+    margin-bottom: 30px;
+    display: flex;
+
+    
+}
+
+.this-is{
+    border: 3px black;
+    background-color: rgb(188, 159, 198);
+    color: azure;
+    width: 200px;
+    height: 30px;
+    margin-bottom: 30px;
+}
+.tauba{
+    border: 3px black;
+    background-color: rgb(188, 159, 198);
+    color: azure;
+    width: 200px;
+    height: 30px;
+    margin-bottom: 30px;
+}
+.deluxe{ border: 3px black;
+    background-color: rgb(188, 159, 198);
+    color: azure;
+    width: 200px;
+    height: 30px;
+    margin-bottom: 30px;
+
+}
+.navbar{
+    background-color: #181818;
+}
+
