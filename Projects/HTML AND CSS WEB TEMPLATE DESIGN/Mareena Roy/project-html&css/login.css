@@ -1,0 +1,148 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+
+body{
+    background-image: url(img1.jpg);
+  background-size: cover;
+}
+
+.dancing-script {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.navbar{
+    border-bottom: 2px solid #d63384;;
+
+    
+
+  
+}
+.navbar-brand{
+    margin-left: 20px;
+
+}
+
+.navbar-nav{
+display: flex;
+align-items: center;
+
+
+
+}
+
+.navbar-nav.me-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav-item{
+  margin-left: 30px;
+    
+}
+.icons{
+    margin-right: 200px;
+   display: flex;
+   gap: 20px;
+}
+
+.icons a{
+color: rgb(4, 4, 4);
+}
+
+
+
+.carousel-item img{
+    height: 300px;
+   width: 100px;
+  
+    
+}
+.carousel-item{
+    height: 700px;
+
+    
+
+}
+.shop-option .btn a {
+    color: inherit; 
+    text-decoration: none; 
+    
+}
+
+#loginform .card{
+   
+    background-color: transparent;
+    border-color: #d63384;
+    box-shadow: 6px 10px 10px 0px #d63384;
+   margin-top: 100px;
+   margin-bottom: 200px;
+   display: flex;
+   justify-content: center;
+
+}
+
+
+.custom-btn{
+    background-color: #d63384; 
+  color: antiquewhite;
+    
+}
+.btn{
+
+}
+.btn-primary {
+    background-color:  #d63384 !important;
+    border-color: pink !important;
+    color: white !important;
+    
+}
+
+.btn-primary:hover {
+    background-color: pink !important; 
+    border-color:  #d63384 !important;
+}
+
+
+
+#loginform {
+
+width: 400px;
+
+  
+  
+}
+
+
+
+
+
+.footer-section{
+    background-color: #d63384;
+    height: 200px;
+    
+}
+.footer-section p{
+    display: flex;
+    align-items: center;
+ margin-left: 500px;
+    
+}
+.icons-socialmedia{
+    margin-left: 500px;
+}
+#footer{
+    background-color: #d63384;
+}
+
+
+.left-content{
+  background-color: aliceblue;
+margin-top: 70px;
+width: 600px;
+}
+
